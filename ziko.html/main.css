@@ -1,0 +1,41 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    margin-bottom: 20px; 
+}
+
+.logos-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-end; 
+    margin-top: 20px; 
+}
+
+figure {
+    text-align: center; 
+}
+
+.First-logo,
+.Second-logo,
+.Third-logo {
+    width: 200px; 
+    height: auto; 
+    margin: 0 10px; 
+}
+
+figcaption {
+    margin-top: 10px;
+}
